@@ -22,8 +22,6 @@ The project involves training a GAN on a dataset of anime faces. The GAN consist
 
 ## Installation
 
-### Option 1: Create a New Virtual Environment
-
 1. **Clone the repository:**
 
     ```sh
@@ -41,15 +39,7 @@ The project involves training a GAN on a dataset of anime faces. The GAN consist
 3. **Install the required libraries:**
 
     ```sh
-    pip install tensorflow numpy matplotlib pillow
-    ```
-
-### Option 2: Use the Pre-Created Virtual Environment
-
-1. **Activate the pre-created virtual environment:**
-
-    ```sh
-    source 10ver/bin/activate  # On Windows use `10ver\Scripts\activate`
+    pip install -r requirements.txt
     ```
 
 ## Dataset
@@ -74,7 +64,7 @@ Images are resized to 28x28 pixels and normalized to prepare them for the GAN mo
 
 2. **Run the Jupyter Notebook:**
 
-    Open the `Code.ipynb` notebook using Jupyter Notebook or JupyterLab and run all cells to execute the training process.
+    Open the `GANSipynb - Copy.ipynb` notebook using Jupyter Notebook or JupyterLab and run all cells to execute the training process.
 
 3. **Monitor the Training:**
 
